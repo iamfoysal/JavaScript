@@ -33,3 +33,38 @@ document.write("<br> name and age print: <br>")
     document.write(myName);
     document.write(age);
 
+//string concatenation
+document.write("<hr>string concatenation*");
+document.write("<br>Mohammad"+"foysal <br>");
+
+/*OR */ 
+var firstName ="Mohammad";
+var lastName ="Foysal <br><hr>";
+
+var fullName = firstName + lastName;
+document.write(fullName ); 
+
+// Number of Character
+
+ var text= "Bangladesh is a small country";
+ var len = text.length;
+ document.write("<br>Number Of Character = " + len);
+// input type Number of Characte
+document.write("<br> input type Number Of Character " );
+ var yourText=prompt("Enter Your Input :");
+ document.write("<br>Number Of Character = " + yourText.length);
+// convert uppercase 
+document.write("<br><hr>  convert uppercase and lowercase > (bangladesh is a beautiful) = " );
+var uperText =" bangladesh is a beautiful";
+uperText = uperText.toUpperCase();
+document.write(uperText)
+// convert lowercase
+document.write("<br><hr>  convert uppercase and lowercase > (BANGLADESH IS A BEAUTIFU) = " );
+var lowerText = "BANGLADESH IS A BEAUTIFUL <br>";
+ lowerText = lowerText.toLowerCase();
+ document.write(lowerText);
+
+//  concatenation used library
+document.write(" <hr> concatenation used library inline = <br>");
+document.write(uperText.concat(lowerText)); 
+
