@@ -1,6 +1,6 @@
 /* start javaScript (document.write) library*/ 
 document.write("<br> Name: Mohammad Kawsar Alom Foysal <br> <hr>");
-document.write("Address: Feni, bangladesh<hr>");
+document.write("Address: Feni, Bangladesh<hr>");
 document.write('Phone: +88964575452<br> <hr>');
 /* start javaScript (alart) library*/ 
 // alert("Wellcome!");
@@ -68,31 +68,3 @@ var lowerText = "BANGLADESH IS A BEAUTIFUL <br>";
 document.write(" <hr> concatenation used library inline = <br>");
 document.write(uperText.concat(lowerText)); 
 
-// for loop use
-var f_loopS;
-document.write(" <hr> <br>");
-for (f_loopS=1; f_loopS<=5; f_loopS=f_loopS+1)
-    {
-
-        document.write(f_loopS +"<h1>This is for loop</h1> <hr>" );
-
-    }
-//1+3+5+7........100
-for(var numBer=1; numBer <= 100; numBer=numBer+2)
-{
-    document.write("/"+numBer);
-}
-document.write(" <hr> <br>");
-
-// 2+4+6+.....100
-for(var numBer=2; numBer <= 100; numBer=numBer+2)
-{
-    document.write("/"+numBer);
-}
-document.write(" <hr> <br>");
-//10, 9, 8, 7,....1
-
-for(var numBer=10; numBer >= 1; numBer=numBer-1)
-{
-    document.write(numBer+ ",");
-}
