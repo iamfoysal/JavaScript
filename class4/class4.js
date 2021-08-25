@@ -13,7 +13,7 @@ var fullAddress = {
      naMe :"Mohammad foysal",
      ages : 200,
      address : "feni",
-     skill :"naifs"
+     skill :"nai"
 
 }
 console.log(fullAddress.address);
