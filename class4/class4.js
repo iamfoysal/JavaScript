@@ -45,12 +45,12 @@ function Students(name, roll, age , Cgpa, language, year) {
      }
 }
 
-var Students1 = new Students("Mohammad Kawsar Alom Foysal", 940958,  21, 4.00, "Bangla, English, Hindi", 2021);
-var Students2 = new Students("Sumaiya Tabassum", 940936,  21, 4.00, "Bangla, English, Hindi", 2021);
-var Students3 = new Students("Soyad Mohiful islam", 940969,  21, 4.00, "Bangla, English, Hindi", 2021);
-var Students4 = new Students("Israt Jahan Rothi", 940944,  21, 4.00, "Bangla, English, Hindi", 2021);
-var Students5 = new Students("Takdirul Islam Sihir", 940935,  22, 4.00, "Bangla, English, Hindi", 2021);
-var Students6 = new Students("Robiul islam", 940900, 25, 4.00, "Bangla, English, Hindi", 2021);
+var Students1 = new Students("Mohammad Kawsar Alom Foysal", 94098,  21, 4.00, "Bangla, English, Hindi", 2021);
+var Students2 = new Students("Sumai Tabassum", 94093,  21, 4.00, "Bangla, English, Hindi", 2021);
+var Students3 = new Students("Soyad Mohiful islam", 94096,  21, 4.00, "Bangla, English, Hindi", 2021);
+var Students4 = new Students("Israt Jahan Rothi", 94094,  21, 4.00, "Bangla, English, Hindi", 2021);
+var Students5 = new Students("Takdirul Islam Sihir", 94095,  22, 4.00, "Bangla, English, Hindi", 2021);
+var Students6 = new Students("Robiul islam", 94090, 25, 4.00, "Bangla, English, Hindi", 2021);
 
 // document.write("<hr> <br> students 0  name = "+ Students0.name);
 // document.write("<hr> <br> students 1  age = "+ Students1.age);
