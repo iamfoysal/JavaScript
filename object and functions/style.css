@@ -10,8 +10,6 @@ body{
 }
 body p{
     text-align: justify;
-    text-transform: uppercase;
-    text-overflow: ;
     padding: 20px;
     text-emphasis: rgb(252, 44, 44);
     text-indent: 15%;

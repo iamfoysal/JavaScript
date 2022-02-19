@@ -1,5 +1,5 @@
 var date = new Date();
-document.write(date); // outout web page
+// document.write(date); // outout web page
 console.log(date); // output console page 
 
 var dateday  =  date.getDay;
@@ -10,3 +10,4 @@ var datemunite = date.getMinutes;
 var datesecounds = date.getSeconds;
 // var datedivider = date.get
 document.write("<br> <hr> Date Show Layout: Day + Month + Year + Hours + Munutes + Secounds" + dateday);
+console.log(date);
