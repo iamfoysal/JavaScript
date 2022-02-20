@@ -1,20 +1,23 @@
-body{
+body {
     margin: 30px;
     padding: 15px;
     background-color: black;
     color: #fff;
     text-align: center;
-    
+
 }
-strong{
+
+strong {
     color: rgb(214, 11, 11);
 }
-.container{
+
+.container {
     background-color: #fff;
     padding: 10px;
-   
+
 }
-.js{
+
+.js {
     width: 110px;
     text-align: center;
     font-size: 22px;
@@ -26,39 +29,46 @@ strong{
     -webkit-animation: js 7s 2;
     border-radius: 5px;
     margin-bottom: 5rem;
-    
+
 }
-.js:hover{
+
+.js:hover {
     text-replace: auto;
     background: rgba(12, 54, 241, 0.849);
     transition: 0.5s;
 }
- @keyframes js{
-    0%{ 
+
+@keyframes js {
+    0% {
         transform: rotate(0deg);
         left: 0px;
     }
+
     25% {
         transform: rotate(20deg);
-        left: 0px;}
+        left: 0px;
+    }
 
     50% {
         transform: rotate(0deg);
         left: 600px;
         background: #2553eb;
     }
+
     55% {
         transform: rotate(0deg);
         left: 600px;
     }
+
     70% {
         transform: rotate(0deg);
         left: 600px;
         background: #3a7580;
     }
+
     100% {
         transform: rotate(-360deg);
         left: 0px;
     }
 
-} 
+}

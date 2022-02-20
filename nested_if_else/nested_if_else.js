@@ -8,19 +8,16 @@ data1 = parseInt(data1);
 data2 = parseInt(data2);
 data3 = parseInt(data3);
 
-if (data1 >= data2){
-    if (data1 >=data3){
+if (data1 >= data2) {
+    if (data1 >= data3) {
         document.write(data1 + " is the largest number!!");
-    }
-    else{
+    } else {
         document.write(data3 + " is the largest number!!");
     }
-}
-else{
-    if (data2 >= data3){
+} else {
+    if (data2 >= data3) {
         document.write(data2 + " is the largest number!!")
-    }
-    else{
+    } else {
         document.write(data3 + " is the largest number!!")
     }
 }

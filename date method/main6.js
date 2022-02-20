@@ -2,7 +2,7 @@ var date = new Date();
 // document.write(date); // outout web page
 console.log(date); // output console page 
 
-var dateday  =  date.getDay;
+var dateday = date.getDay;
 var monthdate = date.getMonth;
 var yeardate = date.getFullYear;
 var datetime = date.getHours;
